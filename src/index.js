@@ -1,5 +1,9 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
 
-const element = <h1>Hello World</h1>;
-console.log(element);
+import Ingredients from "./components/ingredients";
+
+ReactDOM.render(<Ingredients />, document.getElementById("root"));
+
+//registerServiceWorker();
